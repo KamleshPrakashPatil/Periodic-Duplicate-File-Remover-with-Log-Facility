@@ -81,6 +81,7 @@ def WriteDuplicate(dict1,Count,Stime):
         iCnt = 0
 
         for result in results:
+            iCnt = 0
             for subresult in result:
                 iCnt+=1
                 if iCnt>=2:
